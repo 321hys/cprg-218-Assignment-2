@@ -1,3 +1,4 @@
+
 .body,.html {
     height: 100%;
     margin: 0;
@@ -16,14 +17,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #ab81b4;
+    background-color: #ffffff;
     color: #fff;
     height: 100vh;
 }
 
 
 .hero-mainimage {
-    background-image: url('/assets/flower.jpeg');
+    background-image: url('./assets/ribbon.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
