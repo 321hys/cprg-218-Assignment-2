@@ -1,4 +1,4 @@
-body, html {
+.body,.html {
     height: 100%;
     margin: 0;
     font-family: "Yeseva One", serif;
@@ -6,7 +6,7 @@ body, html {
     font-style: normal;
 }
 
-h1, p {
+.h1, .p {
     margin: 0;
 }
 
@@ -171,6 +171,9 @@ h1, p {
 /*video*/
 .video {
     padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between; /* 두 항목 사이에 공간을 균등하게 분배 */
+    align-items: center; 
 }
 
 .video-container {
@@ -178,11 +181,17 @@ h1, p {
     height: auto;
     display: flex;
     justify-content: center;
+    display: flex;
+    justify-content: space-between; /* 두 항목 사이에 공간을 균등하게 분배 */
+    align-items: center; 
 }
 
 .video-container iframe {
     width: 50%;
     height: auto;
+    display: flex;
+    justify-content: space-between; /* 두 항목 사이에 공간을 균등하게 분배 */
+    align-items: center; 
 }
 
 .section-content {
