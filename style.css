@@ -38,12 +38,22 @@
     position: absolute;
     top: 20%;
     left: 35%;
-    color: rgb(105, 46, 119);
+    color: #fff; /* 텍스트 색상을 흰색으로 변경 */
+    background-color: rgba(0, 0, 0, 0.5); /* 반투명 검은색 배경 추가 */
+    padding: 1em; /* 텍스트 주변에 여백 추가 */
+    border-radius: 10px;
 }
 
 .hero-container h1 {
-    font-size: 30px;
+  font-size: 55px; 
 }
+
+.hero-container p {
+  margin: 0.5em 0; /* 위아래 마진을 0.5em으로 조정 */
+  padding: 0.5em; /* 패딩 추가 */
+  font-size: 18px; /* 폰트 크기 조정 */
+}
+
 /*card*/
 .card-container {
 
@@ -84,8 +94,8 @@
 }
 
 .card img {
-    width: 100%;
-    height: auto;
+   width: 300px; 
+   height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
 }
@@ -153,6 +163,31 @@
     background-color: #bb94d2;
     color: white;
 }
+
+a:focus, button:focus, .accordion:focus {
+  outline: 2px solid #005fcc; 
+  outline-offset: 2px;
+}
+
+.accordion {
+  /* 기존의 스타일에 추가 */
+  border: 2px solid #3d0a4b; 
+  margin: 10px 0; 
+  padding: 10px; 
+}
+
+.accordion:before {
+  content: '+ ';
+  color: #3d0a4b; 
+  margin-right: 5px; 
+}
+
+.accordion:hover, .accordion:focus {
+  background-color: #bb94d2; 
+  color: #fff; 
+  border-color: #bb94d2; 
+}
+
 
 .panel {
     padding: 0 18px;
